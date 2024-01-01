@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="880.0" prefWidth="1520.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.connectSceneController">
+   <children>
+      <ImageView fitHeight="880.0" fitWidth="1520.0" layoutX="-2.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../背景.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="189.0" fitWidth="251.0" layoutX="659.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../链接.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="textField" layoutX="363.0" layoutY="511.0" onKeyPressed="#KeyPressEnter" prefHeight="124.0" prefWidth="804.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="142.0" fitWidth="814.0" layoutX="363.0" layoutY="349.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../输入2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageView" fitHeight="70.0" fitWidth="804.0" layoutX="472.0" layoutY="702.0" pickOnBounds="true" preserveRatio="true">
+
+      </ImageView>
+   </children>
+</AnchorPane>
